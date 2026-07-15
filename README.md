@@ -7,7 +7,7 @@ Function
 -------------------------------------------------------------------------------------------------
 The SuperShelter uses tinyML object detection to recognize cats and only open the door for them. This effectively makes it so only they can access the shelter which is helpful in TNR operations to stop racoon interference (more on that below). It's also a fun project to recreate for a pet house! 
 
-To replicate the build you will have to configure the Arduino IDE to work with the ESP32. 
+To replicate the build you will have to configure the Arduino IDE/PlatformIO to work with the ESP32. 
 You will also need to modify the code to use your own trained Edge Impulse model. This is covered in the comments in the code and in the tutorial videos.
 
 
